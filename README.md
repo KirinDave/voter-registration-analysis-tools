@@ -35,21 +35,14 @@ memory_limit = -1;
 ## Deployment
 
 
-
-## Contributing
-Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
-
 ## Versioning
 For the versions available, see the tags on this repository.
 
 ## Authors
-Saill White - Initial author
-See also the list of contributors who participated in this project.
+Saill White - Initial author http://www.votesleuth.org
 
 ## License
 This project is licensed under the GPL 3 - see the LICENSE.md file for details
 
 ## Acknowledgments
-Hat tip to anyone who's code was used
-Inspiration
-etc
+

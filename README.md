@@ -1,4 +1,4 @@
-# pa-sure-scripts
+# voter-registration-analysis-tools
 A collection of tools for examining Pennsylvania voter registration records.
 
 ## Getting Started

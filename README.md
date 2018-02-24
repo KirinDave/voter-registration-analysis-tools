@@ -39,7 +39,7 @@ memory_limit = -1;
 For the versions available, see the tags on this repository.
 
 ## Authors
-Saill White - Initial author http://www.votesleuth.org
+Saill - Initial author http://www.votesleuth.org @saill
 
 ## License
 This project is licensed under the GPL 3 - see the LICENSE.md file for details

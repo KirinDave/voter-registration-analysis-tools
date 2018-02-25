@@ -201,7 +201,8 @@ if( $fvefiles )
 						$address = $num.' '.$street.' '.$apt.' '.$city.' '.$countyname;
 						
 						// write to output files
-						// use pipe as delimeter because explode isn't adding empty array elements for multiple tabs for some reason
+						// use pipe as delimeter because explode isn't adding empty array elements for multiple tabs afte they are written using fwrite
+						// works fine for the raw data files. go figure.
 						fwrite( $outputfiles['a'], $address."\n" );
 						fwrite( $outputfiles['a+'], $address.'|'.$phone.'|'.$party.'|'.$status.'|'.$lastvotedate.'|'.$registrationdate.'|'.$statuschangedate.'|'.$lastchangedate."\n" );
 						fwrite( $outputfiles['bid'], $baseid."\n" );

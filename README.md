@@ -6,7 +6,7 @@ These scripts are built to pull in and examine aspects of data from one or more 
 
 The scripts named getallsubsets_??.php where ?? is a two character U.S. state abbreviation are built to parse the state-specific raw format and produce a set of files containing selected data from each record, one voter per line.
 
-These trimmed-down files can easily be imported as arrays and then searched for duplicate records. Since all the files for a given dataset are indexed identically, the array_multisort function can be used to sort them by voterid, for instance, while preserving the key value relationship among the arrays.
+These trimmed-down files can easily be imported as arrays and then searched for duplicate records and records matching given criteria. Since all the files for a given dataset are indexed identically, the array_multisort function can be used to sort them by voterid, for instance, while preserving the key/value relationship among the arrays.
 
 This is very useful for making comparisons between one snapshot date and another, for instance finding records where voter ids are the same but other values are different, or using a binary search routine to identify the ids that have been added or removed since the previous snapshot.
 

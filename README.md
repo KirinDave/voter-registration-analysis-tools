@@ -46,7 +46,7 @@ The remaining scripts are built to run from within the directory where the data 
 
 *rename_files_pa.sh* - replaces spaces in the data file names with underbars for easier processing
 
-*getsubsets_pa.php* - generates a set of "standard" data subsets, each containing one line per vote and selected fields from the raw data
+*getsubsets_pa.php* - generates a set of "standard" data subsets, each containing one line per vote and selected fields from the raw Pennsylvania SURE data.
 
 
 **The current set of files that operate on a single data set are:**

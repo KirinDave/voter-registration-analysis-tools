@@ -1,5 +1,5 @@
 # voter-registration-analysis-tools
-A collection of tools for examining Pennsylvania voter registration records.
+A collection of tools for examining voter registration records.
 
 ## Getting Started
 These scripts are built to pull in and examine aspects of data from one or more sets of voter registration records.

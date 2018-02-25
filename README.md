@@ -39,18 +39,27 @@ The files that convert raw data are built to be run from within the directory wh
 
 The remaining scripts are built to run from within the directory where the data subset files are located, unless they are comparing or pulling data from more than one data snapshot in which case the paths to source files are input variables.
 
-The current set of state-specific files are:
+**The current set of state-specific files are:**
+
 *rename_files_pa.sh* - replaces spaces in the data file names with underbars for easier processing
+
 *getsubsets_pa.php* - generates a set of "standard" data subsets, each containing one line per vote and selected fields from the raw data
 
 
-The current set of files that operate on a single data set are
+**The current set of files that operate on a single data set are:**
+
 *birthdates_by_decade.sh* - Grep for birthdate strings
+
 *checkgenders.php* - Count the voters of each gender that have first name matching common given names
-getcentenarians.php - Count the number of voters over the age of 100 in a data set, and also count centenarians who last voted in a given election 
+
+getcentenarians.php - Count the number of voters over the age of 100 in a data set, and also count centenarians who last voted in a given election
+
 *getunderagevoters.php* - Count the number of voters who were under the age of eighteen on their reported "last voted" date.
+
 *printcounts.php* - Echoes the number of records and the number of unique and non-unique records in each data subsets.
+
 *printallcounts.sh* - Executes printcounts.php for a number of interesting data subsets.
+
 
 ## Versioning
 For the versions available, see the tags on this repository.

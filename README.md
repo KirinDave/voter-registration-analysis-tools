@@ -24,8 +24,11 @@ http://dos.myflorida.com/elections/data-statistics/voter-registration-statistics
 
 ## Prerequisites
 These scripts are built to run in a bash environment with PHP 5.3 or later.
+
 **bash** - https://en.wikipedia.org/wiki/Bash_(Unix_shell)
+
 **PHP** - http://php.net/downloads.php
+
 
 These scripts assume enough memory to handle some rather large arrays. We recommend at least 24GB RAM. PHP must be configured to utilize as much memory as it may need. This is done by setting the memory_limit to -1 in the php.ini file:
 

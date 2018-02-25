@@ -52,7 +52,7 @@ The remaining scripts are built to run from within the directory where the data 
 
 *checkgenders.php* - Count the voters of each gender that have first name matching common given names
 
-getcentenarians.php - Count the number of voters over the age of 100 in a data set, and also count centenarians who last voted in a given election
+*getcentenarians.php* - Count the number of voters over the age of 100 in a data set, and also count centenarians who last voted in a given election
 
 *getunderagevoters.php* - Count the number of voters who were under the age of eighteen on their reported "last voted" date.
 

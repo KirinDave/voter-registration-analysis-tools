@@ -65,7 +65,7 @@ The remaining scripts are built to run from within the directory where the data 
 For the versions available, see the tags on this repository.
 
 ## Authors
-Saill - Initial author http://www.votesleuth.org @saill
+Saill - Initial author. http://www.votesleuth.org  - @saill on Twitter
 
 ## License
 This project is licensed under the GPL 3 - see the LICENSE.md file for details

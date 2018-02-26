@@ -17,7 +17,7 @@ Due to legal and ethical considerations, registration data is not included in th
 Here are some sources for it:
 
 
-**Florida** - Voter Registration Data is available on CD by request from here: 
+**Florida** - Voter Registration Data is available on CD by request from here:
 http://dos.myflorida.com/elections/data-statistics/voter-registration-statistics/voter-extract-disk-request/
 
 **Ohio** - Voter Registration Data is available to download, here:

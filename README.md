@@ -16,11 +16,17 @@ Due to legal and ethical considerations, registration data is not included in th
 
 Here are some sources for it:
 
-**Pennsylvania**  - Voter Registration Data, aka SURE data, is available for purchase here: https://www.pavoterservices.pa.gov/pages/purchasepafullvoterexport.aspx. 
 
-**Florida** - Voter Registration Data, is available on CD by request from here: 
+**Florida** - Voter Registration Data is available on CD by request from here: 
 http://dos.myflorida.com/elections/data-statistics/voter-registration-statistics/voter-extract-disk-request/
 
+**Ohio** - Voter Registration Data is available to download, here: 
+https://www6.sos.state.oh.us/ords/f?p=VOTERFTP:STWD:::#stwdVtrFiles
+
+**Pennsylvania**  - Voter Registration Data, aka SURE data, is available for purchase here: https://www.pavoterservices.pa.gov/pages/purchasepafullvoterexport.aspx. 
+
+**Washington** - Voter Registration Data is available for download by request from here: 
+https://www.sos.wa.gov/elections/vrdb/extract-requests.aspx
 
 ## Prerequisites
 These scripts are built to run in a bash environment with PHP 5.3 or later.

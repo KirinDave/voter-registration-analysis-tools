@@ -122,19 +122,10 @@ else
 	$outputfiles[ 'p-lv' ] = fopen( $subdir.'party_lastvoted_set.csv', 'w' );
 }
 
-$fvefiles = shell_exec( 'ls -1 *_FVE_*' );
 // if this is the first time running the script let's start by renaming the FVE files so they use underbars rather than spaces
-if( ! $fvefiles )
-{
-	$oldfvefiles = shell_exec( 'ls -1 *FVE*' );
-	$oldfvearray = explode( "\n", $oldfvefiles );
-	//get the date from the first file
-	$fvefilename = $oldfvearray[0];
-	$nameparts = explode( ' ', $fvefilename );
-	$date = str_replace( '.txt', '', $nameparts[2] );
-	shell_exec( 'sh rename_files_pa.sh '.$date );
-	$fvefiles = shell_exec( 'ls -1 *_FVE_*' );
-}
+include( 'rename_files_pa.php' );
+$fvefiles = shell_exec( 'ls -1 *_FVE_*' );
+
 
 
 //echo $fvefiles;
@@ -248,5 +239,7 @@ else
 	fclose( $outputfiles[ 'p' ] );
 	fclose( $outputfiles[ 'p-lv' ] );
 }
-
+shell_exec( 'rm head.tsv' );
+shell_exec( 'rm tail.tsv' );
+shell_exec( 'rm tmp.tsv' );
 ?>

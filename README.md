@@ -45,24 +45,30 @@ memory_limit = -1;
 ## Deployment
 There are two types of scripts - those that convert raw data from the state's original format into a (mostly) standardized set of flat "data subset" files, and those that operate on the data subset files.
 
-The files that convert raw data are built to be run from within the directory where the data has been uncompressed.
+The scripts that convert raw data are built to be run from within the directory where the data has been uncompressed, with the exception of scripts that selectively retrieve records from the original files. Each set of state-specific scripts is located in a subdirectory named for the state's abbreviation.
 
 The remaining scripts are built to run from within the directory where the data subset files are located, unless they are comparing or pulling data from more than one data snapshot in which case the paths to source files are input variables.
 
 **The current set of state-specific files are:**
 
-*rename_files_pa.sh* - replaces spaces in the data file names with underbars for easier processing
+*pa/county_names_pa.sh* - A list of Pennsylvania's county names
 
-*getsubsets_pa.php* - generates a set of "standard" data subsets, each containing one line per vote and selected fields from the raw Pennsylvania SURE data.
+*pa/getduperecords_pa.php* - Find non-uniquerecords in a given subset file, pulls the relevant records from the original data. Runs from subset dir.
+
+*pa/getsubsets_pa.php* - Generate a set of "standard" data subsets, each containing one line per vote and selected fields from the raw data
+
+*pa/rename_files_pa.php* - Replaces spaces in the data file names with underbars for easier processing
 
 
-**The current set of files that operate on a single data set are:**
+**The current set of files that operate on a single standardized data subset are:**
 
 *birthdates_by_decade.sh* - Grep for birthdate strings
 
 *checkgenders.php* - Count the voters of each gender that have a first name matching common given names
 
 *getcentenarians.php* - Count the number of voters over the age of 100 in a data set, and also count centenarians who last voted in a given election
+
+*getdupeinfo.php*  - Find non-uniquerecords in a given subset file, pulls additional voter data from other subset files.
 
 *getunderagevoters.php* - Count the number of voters who were under the age of eighteen on their reported "last voted" date.
 

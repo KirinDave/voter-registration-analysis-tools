@@ -18,15 +18,19 @@ Here are some sources for it:
 
 
 **Florida** - Voter Registration Data is available on CD by request from here:
+
 http://dos.myflorida.com/elections/data-statistics/voter-registration-statistics/voter-extract-disk-request/
 
 **Ohio** - Voter Registration Data is available to download, here:
+
 https://www6.sos.state.oh.us/ords/f?p=VOTERFTP:STWD:::#stwdVtrFiles
 
 **Pennsylvania**  - Voter Registration Data, aka SURE data, is available for purchase here:
+
 https://www.pavoterservices.pa.gov/pages/purchasepafullvoterexport.aspx. 
 
-**Washington** - Voter Registration Data is available for download by request from here: 
+**Washington** - Voter Registration Data is available for download by request from here:
+
 https://www.sos.wa.gov/elections/vrdb/extract-requests.aspx
 
 ## Prerequisites
@@ -66,6 +70,8 @@ The remaining scripts are built to run from within the directory where the data 
 
 *checkgenders.php* - Count the voters of each gender that have a first name matching common given names
 
+*countregistrationsbyparty* - Count the voters of each party, per county.
+
 *getcentenarians.php* - Count the number of voters over the age of 100 in a data set, and also count centenarians who last voted in a given election
 
 *getdupeinfo.php*  - Find non-uniquerecords in a given subset file, pulls additional voter data from other subset files.
@@ -78,7 +84,7 @@ The remaining scripts are built to run from within the directory where the data 
 
 **Also included:**
 
-*/rawscripts* - Contains the original files written while exploring the data and experimenting with the best approaches for identifying interesting features and extracting associated data from the raw files. Caution - contains inelegant, unoptimized and casually commented code. View at your own risk.
+*rawscripts*/ - Contains the original files written while exploring the data and experimenting with the best approaches for identifying interesting features and extracting associated data from the raw files. Caution - contains inelegant, unoptimized and casually commented code. View at your own risk.
 
 
 ## Versioning

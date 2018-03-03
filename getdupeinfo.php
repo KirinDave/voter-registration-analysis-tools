@@ -18,6 +18,7 @@ NOTE: It's a good idea to run printcounts.php on your record set of choice befor
 
 $outputfilename = str_replace( '_set.csv', '_dupeinfo.csv', $argv[1] );
 $outputfile = fopen( $outputfilename, 'w' );
+fwrite( $outputfile, "ID\tFirst Name\tMiddle Name\tLast Name\tDOB\tGender\tAddress\tCounty\tPhone\tParty\tStatus\tLast Voted\tRegistered\tStatus Changed\tLastChanged\n" );
 
 $records = file( $argv[1] );
 if( isset( $argv[2] ) )

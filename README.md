@@ -70,7 +70,7 @@ The remaining scripts are built to run from within the directory where the data 
 
 *checkgenders.php* - Count the voters of each gender that have a first name matching common given names
 
-*countregistrationsbyparty* - Count the voters of each party, per county.
+*countregistrationsbyparty.php* - Count the voters of each party, per county.
 
 *getcentenarians.php* - Count the number of voters over the age of 100 in a data set, and also count centenarians who last voted in a given election
 
